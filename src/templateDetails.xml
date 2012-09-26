@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" method="upgrade">
+
+	<name>Joomla Bootstrap Template</name>
+	<creationDate>2012-09-18</creationDate>
+	<authorEmail>fabian.roloff@vocatus.de</authorEmail>
+	<authorUrl>http://www.vocatus.de</authorUrl>
+	<copyright>Vocatus AG 2012</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Default Joomla template with Twitter Bootstrap</description>
+	
+	
+	<files>
+		<!-- folders -->
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>ico</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		
+		<!-- files -->
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="de-DE">de-DE.tpl_joomla-bootstrap-template.ini</language>
+		<language tag="en-GB">en-GB.tpl_joomla-bootstrap-template.ini</language>
+	</languages>
+	
+	<positions>
+	<!--
+		|					menu-01		|
+		|				header-01		|
+		|				header-02		|
+		|		breadcrumb-01		|
+	
+	-->
+		<position>menu-01</position>
+		<position>menu-02</position>
+		<position>menu-03</position>
+		<position>header-01</position>
+		<position>header-02</position>
+		<position>breadcrumb-01</position>
+		<position>footer-01</position>
+		<position>footer-02</position>
+		<position>footer-03</position>
+	</positions>
+	
+	<config><!-- no need to change -->
+		<fields name="params">
+			<fieldset name="basic">
+				<!-- USE Minified bootstrap.css -->
+					<field name="minified-bootstrap" type="radio" default="1" label="TPL_JOOMLA_BOOTSTRAP_TEMPLATE_PARAMETER_USE_MINIFIED_LABEL" description="TPL_JOOMLA_BOOTSTRAP_TEMPLATE_PARAMETER_USE_MINIFIED_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+					</field>
+			</fieldset>
+		</fields>
+	</config>
+				
+</extension>
