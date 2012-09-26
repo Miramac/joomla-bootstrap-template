@@ -1,0 +1,41 @@
+{
+   "name":"joomla-bootstrap-template",
+   "description":"Joomla 2.5 Template with Twitters Bootstrap CSS Framework",
+   "author":"Jilili",
+   "contributors":[
+      "Fabian Roloff <fabian.roloff@vocatus.de>"
+   ],
+   "version":"0.1.0",
+   "keywords":[
+      "joomla",
+      "template",
+      "bootstrap",
+      "responsive",
+      "layout"
+   ],
+   "homepage":"https://github.com/Miramac/joomla-bootstrap-template",
+   "bugs":"https://github.com/Miramac/joomla-bootstrap-template/issues",
+   "licenses":[
+      {
+         "type":"GPL v3",
+         "url":"http://www.gnu.org/licenses/gpl-3.0.html"
+      }
+   ],
+   "main":"./lib/sql.js",
+   "repository":{
+      "type":"git",
+      "url":"git://github.com/Miramac/joomla-bootstrap-template.git"
+   },
+   "engines":{
+      "node":"0.8"
+   },
+   "devDependencies":{
+      "jshint":"0.9.x",
+      "less":"1.3.x",
+      "uglify-js":"1.3.x",
+      "recess":"1.1.x"
+   },
+   "scripts":{
+      "install":"node ./build"
+   }
+}
