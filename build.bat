@@ -16,4 +16,4 @@ node .\node_modules\less\bin\lessc .\bootstrap.override\less\bootstrap.less > .\
 echo creating joomla template .ZIP file
 .\tools\7-Zip\7z -tzip a .\bin\joomla-bootstrap-template.zip .\src\* >> build.log
 
-pause
+::pause
