@@ -16,3 +16,5 @@ npm-debug.log
 
 bin/joomla-bootstrap-template.zip
 
+src/css/bootstrap.css
+src/css/bootstrap.min.css
