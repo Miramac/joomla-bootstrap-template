@@ -26,11 +26,15 @@ unset($doc->_scripts[$this->baseurl.'/media/system/js/caption.js']);
 <html lang="<?php echo $this->language; ?>" >
 	<head>
 		<jdoc:include type="head" />
-		<!-- enabling bootstraps responsive features -->
+		<!-- for responsive layout -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Le styles -->
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.min.css" type="text/css" />
 		
+		
+
+
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -47,23 +51,26 @@ unset($doc->_scripts[$this->baseurl.'/media/system/js/caption.js']);
 
 	<body>
 		
-		<div class="container-fluid" id="page-content">
+		<div id="page-header">
 			<div class="navbar navbar-inverse navbar-fixed-top" id="header-01">
-			<div class="navbar-inner">
-				<div class="container-fluid">
-					<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</a>
-					
-					<a class="brand" href="#">Joomla</a>
-					<div class="nav-collapse collapse">
-						<jdoc:include type="modules" name="position-1" /> 
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						
+						<a class="brand" href="<?php echo $this->baseurl ?>">Joomla!</a>
+						
+						<div class="nav-collapse collapse">
+							<jdoc:include type="modules" name="position-1" /> 
+						</div>
 					</div>
 				</div>
-			</div>
-			</div>			
+			</div>		
+		</div>
+		<div class="container-fluid" id="page-content">
 			<div class="row-fluid">
 				<div class="span3" id="nav-01"><!-- main menu -->
 					<div class="sidebar-nav">
