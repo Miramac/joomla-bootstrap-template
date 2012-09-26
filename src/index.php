@@ -1,8 +1,8 @@
 <?php  
 /*------------------------------------------------------------------------
-# copyright Copyright © 2012 Vocatus AG All rights reserved.
+# copyright Copyright © 2012 Jilili All rights reserved.
 # @license  GPL v3 http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
-# Website   http://www.vocatus.de
+# Website   http://www.jilili.de
 -------------------------------------------------------------------------*/
 
 defined( '_JEXEC' ) or die( 'Restricted access' );
