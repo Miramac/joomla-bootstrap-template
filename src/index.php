@@ -73,7 +73,7 @@ unset($doc->_scripts[$this->baseurl.'/media/system/js/caption.js']);
 		<div class="container-fluid" id="page-content">
 			<div class="row-fluid">
 				<div class="span3" id="nav-01"><!-- main menu -->
-					<div class="sidebar-nav">
+					<div class="sidebar-nav tpl-menu-left-1">
 						<jdoc:include type="modules" name="position-7" />
 					</div>
 				</div>

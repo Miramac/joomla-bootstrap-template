@@ -3,3 +3,12 @@ body {
   position: relative;
   padding-top: 40px;
 }
+
+/* left menu */
+div.tpl-menu-left-1 {
+ padding-top: 15px;
+}
+div.tpl-menu-left-1 li>a {
+ height: 50px;
+}
+
