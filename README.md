@@ -11,10 +11,11 @@ Simple basic template with bootstrap 2.1, jquery 1.8.
 
 Development (pre-alpha)
 
+Test site with Joomla demo content: http://www.jilili.de/joomla-bootstrap-template/
 
 ## Use it
 
- Try the last build on your Test-Joomla installation: https://github.com/Miramac/joomla-bootstrap-template/bin/joomla-bootstrap-template.zip
+ Try the last build on your Test-Joomla installation: https://github.com/Miramac/joomla-bootstrap-template/raw/master/bin/joomla-bootstrap-template.zip
 
 ## Customize it
 Greate your own template. 
