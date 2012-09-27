@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template" method="upgrade">
 
-	<name>Joomla Bootstrap Template</name>
+	<name>joomla-bootstrap-template</name>
 	<creationDate>2012-09-18</creationDate>
 	<authorEmail>fabian.roloff@vocatus.de</authorEmail>
 	<authorUrl>http://www.vocatus.de</authorUrl>
