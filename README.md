@@ -20,6 +20,8 @@ Test site with Joomla demo content: http://www.jilili.de/joomla-bootstrap-templa
 ## Customize it
 Create your own Joomla template. 
 
+Get a clone of this repo.
+
 Install dependencies:	
 
 	 $ npm install 
@@ -33,9 +35,9 @@ Supported Joomla componets and moduels
 --------------------------------------
  * Featured articels
  * Articels
- * Top menu
- * Left main menu
- * Login & regestration form
+ * Top menu 
+ * Left main menu (needs some styling ;-)
+ * Login & registration form
  
  
  

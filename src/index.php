@@ -55,11 +55,11 @@ unset($doc->_scripts[$this->baseurl.'/media/system/js/caption.js']);
 			<div class="navbar navbar-inverse navbar-fixed-top" id="header-01">
 				<div class="navbar-inner">
 					<div class="container-fluid">
-						<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+						<button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</a>
+						</button>
 						
 						<a class="brand" href="<?php echo $this->baseurl ?>">Joomla!</a>
 						
