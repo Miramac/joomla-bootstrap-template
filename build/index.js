@@ -1,7 +1,7 @@
 var fs = require('fs')
- , less = require('less')
  , exec = require('child_process').exec
- , uglyfyJS = require('uglify-js')
+ , less = require('../node_modules/less')
+ , uglyfyJS = require('../node_modules/uglify-js')
  , outputPath = './bin/'
  , srcPath = './src/'
  , zipName = 'joomla-bootstrap-template.zip'
@@ -10,7 +10,6 @@ var fs = require('fs')
  , tmpImgFileName
  , fileEncoding = 'utf-8'
  , eof = '\n';
- 
  
  
 	/** Cleanup **/
