@@ -14,7 +14,7 @@ Development (pre-alpha)
 
 ## Use it
 
- Try the last build on your Test-Joomla installation: 
+ Try the last build on your Test-Joomla installation: https://github.com/Miramac/joomla-bootstrap-template/bin/joomla-bootstrap-template.zip
 
 ## Customize it
 Greate your own template. 
@@ -26,14 +26,6 @@ Install dependencies:
 Build package:	
 	
 	 $ node ./build
-
-## Installation
-
-    $ npm install -g express
-
- To install the 3.0 alpha:
- 
-    $ npm install -g express@3.0
 
 
 Supported Joomla componets and moduels
