@@ -18,7 +18,7 @@ Test site with Joomla demo content: http://www.jilili.de/joomla-bootstrap-templa
  Try the last build on your Test-Joomla installation: https://github.com/Miramac/joomla-bootstrap-template/raw/master/bin/joomla-bootstrap-template.zip
 
 ## Customize it
-Greate your own template. 
+Create your own Joomla template. 
 
 Install dependencies:	
 
