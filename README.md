@@ -11,7 +11,6 @@ Simple basic template with bootstrap 2.1, jquery 1.8.
 
 Development (pre-alpha)
 
-Test site with Joomla demo content: http://www.jilili.de/joomla-bootstrap-template/
 
 ## Use it
 
